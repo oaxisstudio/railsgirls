@@ -17,6 +17,9 @@ group :production do
 end
 # 追加した
 gem 'carrierwave'
+
+
+gem 'mini_magick', '4.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
